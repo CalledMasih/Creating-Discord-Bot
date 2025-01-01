@@ -35,9 +35,9 @@ CTRL + Alt + Windows + N
 ```
 and set the name to anything you want such as: `index.js`, `bot.js`, `main.js`
 
-Then Upload the source of this repository along with your personal information for example: `botToken`, `prefix`, `voiceChannelId` and `rgbRoleId` in the [config.json](https://github.com/Masihdeveloper/Creating-Discord-Bot/blob/main/config.json) file.
+Then Upload the source of this repository along with your personal information for example: `botToken`, `prefix`, `voiceChannelId` and `rgbRoleId` in the [config.json](https://github.com/CalledMasih/Creating-Discord-Bot/blob/main/config.json) file.
 
-Finallly enter the following command in your terminal to run /executing your file and wait for response in the console log...
+Finally enter the following command in your terminal to run /executing your file and wait for response in the console log...
 ``` 
 node fileName.js
 ```
@@ -49,19 +49,19 @@ node fileName.js
 ## Images
 Ping & Uptime Command 
 
-![Ping Command](https://github.com/Masihdeveloper/Creating-Discord-Bot/assets/100484009/e89b4627-4c00-43af-a0d5-b68ea2aac0f8)
+![Ping Command](https://github.com/CalledMasih/Creating-Discord-Bot/assets/100484009/e89b4627-4c00-43af-a0d5-b68ea2aac0f8)
 
 
 Join to a Voice Channel 
 
-![Join Voice Channel](https://github.com/Masihdeveloper/Creating-Discord-Bot/assets/100484009/1e96a076-da84-462d-af71-71b02b31fb92)
+![Join Voice Channel](https://github.com/CalledMasih/Creating-Discord-Bot/assets/100484009/1e96a076-da84-462d-af71-71b02b31fb92)
 
 
 RGB Role 
 
-![RGB Role](https://github.com/Masihdeveloper/Creating-Discord-Bot/assets/100484009/e4fa79c9-2271-4f8a-bd64-c56e98537ac7)
+![RGB Role](https://github.com/CalledMasih/Creating-Discord-Bot/assets/100484009/e4fa79c9-2271-4f8a-bd64-c56e98537ac7)
 
 
-- If you have a problem while usign this source make sure your to DM me on Discord: [Masih#0258](https://discord.com/users/901765485341859911), I will help you and fix your issue ASAP.
+- If you have a problem while using this source make sure your to DM me on Discord: [CalledMasih](https://discord.com/users/901765485341859911), I will help you and fix your issue ASAP.
 - To get more information of How these codes work? you can simply check official guidelines in: https://discordjs.guide/ website.
 > Copyright (c): Masih 2022/12/16, All right reserved!
