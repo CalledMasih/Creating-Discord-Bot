@@ -1,8 +1,8 @@
 /* 
 Make Online your Bot in Discord.js V14
-Hope you Enjoy, Made with 🤍 by Masih#0258
-GitHub: https://github.com/Masihdeveloper | Don't forget to ⭐
-Website: https://masihdev.ir/
+Hope you Enjoy, Made with 🤍 by CalledMasih
+GitHub: https://github.com/calledmasih | Don't forget to ⭐
+Website: https://calledmasih.ir/
 Copyright Masih 2024 All Right Reserved!
 */
 
@@ -59,7 +59,7 @@ client.on("ready", async () => {
     });
   }
   // Refresh the Info every 15s
-  setInterval(changeStatus, 15000);
+  setInterval(changeStatus, 15_000);
 
   // Join to a Voice Channel
   function joinVoice() {
@@ -70,7 +70,7 @@ client.on("ready", async () => {
       adapterCreator: voiceChannel.guild.voiceAdapterCreator,
     });
   }
-  setInterval(joinVoice, 30000);
+  setInterval(joinVoice, 30_000);
 
   // RGB Role (Edit your Role with random color)
   function editRole() {
@@ -78,16 +78,17 @@ client.on("ready", async () => {
     rgbRole.edit({ color: "Random" });
   }
   // Edit the Role color every 5 minutes
-  setInterval(editRole, 300000);
+  setInterval(editRole, 300_000);
 
   console.log(
-    `Logged in as ${client.user.tag}\nGitHub: https://github.com/masihdeveloper | Don't forget to ⭐`
+    `Logged in as ${client.user.tag}\nGitHub: https://github.com/calledmasih | Don't forget to ⭐`
   );
 });
 
 client.on("messageCreate", async (message) => {
   // Advanced Ping Command
   if (message.content.startsWith(`${config.prefix}ping`)) {
+    await message.channel.sendTyping();
     const pingEmbed = new EmbedBuilder()
       .setTitle(client.user.username + " - Pong!")
       .setThumbnail(client.user.displayAvatarURL({ size: 1024 }))
@@ -115,7 +116,6 @@ client.on("messageCreate", async (message) => {
       })
       .setTimestamp();
 
-    await message.channel.sendTyping();
     message.reply({
       embeds: [pingEmbed],
       allowedMentions: {
@@ -126,5 +126,5 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-// Logged in to Your Application Bot
+// Log in to Your Application Bot
 client.login(config.botToken);
