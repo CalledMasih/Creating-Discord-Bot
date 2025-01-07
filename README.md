@@ -57,7 +57,7 @@ Join to a Voice Channel
 ![Join Voice Channel](https://github.com/CalledMasih/Creating-Discord-Bot/assets/100484009/1e96a076-da84-462d-af71-71b02b31fb92)
 
 
-RGB Role 
+RGB Role (Randomly changes the color of your provided role every **5** minutes)
 
 ![RGB Role](https://github.com/CalledMasih/Creating-Discord-Bot/assets/100484009/e4fa79c9-2271-4f8a-bd64-c56e98537ac7)
 
