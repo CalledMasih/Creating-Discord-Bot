@@ -7,7 +7,7 @@ After the download is complete, Open your code Editor, I recommend for you to us
 
 Now Open your Toggle Panel with
 ```
-CTRL + J 
+Ctrl + J 
 ```
 Select the Terminal Option and Type
 ```
@@ -31,7 +31,7 @@ npm install @discordjs/voice
 
 After the operation was processed with any error, please create a NEW file with
 ```
-CTRL + Alt + Windows + N
+Ctrl + Alt + Windows + N
 ```
 and set the name to anything you want such as: `index.js`, `bot.js`, `main.js`
 
